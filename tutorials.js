@@ -2,7 +2,7 @@ const tutorials = [];
 
 function addTutorial(tutorial) {
   tutorials.push(tutorial);
-  return tutorials;
+  return `Tutorial '${tutorial}' has been added.`;
 }
 
 function getTutorials() {
